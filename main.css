@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align:center;
+}
+#add{
+    background-color: black;
+    color:white;
+    font-size:x-large;
+    padding:20px;
+    border-radius: 100%;
+    position:fixed;
+    bottom: 30px;
+    right:20px;
+    
+}
+#middle{
+    background-color: rgb(60, 58, 58);
+    margin:20px;
+    width: 300px;
+    height:300px;
+    color:white;
+    text-align:center;
+    padding:15px;
+    border-radius:20px;
+}
+.container{
+    display:flex;
+  flex-wrap: wrap;
+ 
+
+}
+p{
+    padding:30px
+}
+#delete{
+    padding:8px;
+    background-color: red;
+    border:none;
+    
+}
+#middle h2{
+    text-align:center;
+
+}
+#poppop{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.8;
+    display:none;
+    z-index: 1;
+}
+
+#overlay{
+    background-color:white;
+    position: absolute;
+    border-radius: 10px;
+    top:25%;
+    left: 30%;
+    width:35%;
+    padding:40px;
+    display:none;
+    z-index: 2;
+}
+input,textarea{
+    width:97%;
+    border: none;
+    padding:4px;
+    background:transparent;
+    border-bottom: solid;
+    outline: none;
+    padding-top: 30px;
+}
+#add1{
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(111, 111, 255);
+   
+    margin-top:35px;
+}
+#cancel1{
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(184, 33, 61);
+    margin-top:35px;
+    float: right;
+}
